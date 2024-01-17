@@ -27,10 +27,10 @@ loop = asyncio.get_event_loop()
 async def init():
     if (
         not config.STRING1
-        and not config.STRING2
-        and not config.STRING3
-        and not config.STRING4
-        and not config.STRING5
+        # and not config.STRING2
+        # and not config.STRING3
+        # and not config.STRING4
+        # and not config.STRING5
     ):
         LOGGER("YukkiMusic").error(
             "No Assistant Clients Vars Defined!.. Exiting Process."
