@@ -8,7 +8,6 @@
 
 <details>
   <summary><b>If you have a local clone, you can update it by running the following commands.</b></summary>
-
   
 ```
 git branch -m main master
